@@ -245,6 +245,7 @@
 
 - (void)popoverView:(PopoverView *)popoverView didSelectItemAtIndex:(NSInteger)index
 {
+    int old_type = _feedType;
     // Figure out which string was selected, store in "string"
     _feedType = (int)index + 1;
     switch (_feedType) {
@@ -267,7 +268,9 @@
     // Dismiss the PopoverView after 0.5 seconds
     [popoverView performSelector:@selector(dismiss) withObject:nil afterDelay:0.3f];
     
-    [_collectionView reloadData];
+    if (old_type != _feedType) {
+        [_collectionView reloadData];
+    }
 }
 
 - (void)popoverViewDidDismiss:(PopoverView *)popoverView
