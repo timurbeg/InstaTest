@@ -1,0 +1,40 @@
+//
+//  InstaTest-Prefix.pch
+//  InstaTest
+//
+//  Created by Timur on 18/12/14.
+//  Copyright (c) 2014 TimCo. All rights reserved.
+//
+
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifndef DLog
+#ifdef DEBUG
+#define DLog(_format_, ...) NSLog(_format_, ## __VA_ARGS__)
+#else
+#define DLog(_format_, ...)
+#endif
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+
+#import "Global.h"
+#import "InstagramKit.h"
+#import "BaseViewController.h"
+
+
+#endif
