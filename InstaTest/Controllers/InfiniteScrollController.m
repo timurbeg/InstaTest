@@ -39,7 +39,15 @@
     
     KTPhotoView *photoView = [[KTPhotoView alloc] init];
     photoView.frame = CGRectMake(0.f, 0.f, kPortraitWidth, kPortraitHeight);
-    [photoView.imageView setImageWithURL:media.standardResolutionImageURL placeholderImage:nil];
+  
+    // replicating "no-photo available" bug
+//    NSString *str = @"http://scontent-b.cdninstagram.com/hphotos-xfa1/t51.2885-15/10860224_625389207583486_700601356_n.jpg";
+//    NSURL *url = [NSURL URLWithString:str];
+//    if (index == 10) {
+//        [photoView.imageView setImageWithURL:url placeholderImage:nil];
+//    } else {
+        [photoView.imageView setImageWithURL:media.standardResolutionImageURL placeholderImage:nil];
+//    }
     
     return photoView;
 }

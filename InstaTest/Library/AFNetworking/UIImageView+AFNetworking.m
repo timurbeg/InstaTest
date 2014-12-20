@@ -115,7 +115,10 @@
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     [request addValue:@"image/*" forHTTPHeaderField:@"Accept"];
 
-    [self setImageWithURLRequest:request placeholderImage:placeholderImage success:nil failure:nil];
+    __weak UIImageView *weakSelf = self;
+    [self setImageWithURLRequest:request placeholderImage:placeholderImage success:nil failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error) {
+        weakSelf.image = [UIImage imageNamed:@"no-photo.png"];
+    }];
 }
 
 - (void)setImageWithURLRequest:(NSURLRequest *)urlRequest

@@ -54,6 +54,8 @@
 		1839BAD11A43810500E95599 /* sb-table-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1839BACB1A43810500E95599 /* sb-table-selected@2x.png */; };
 		189053DD1A45177400640733 /* KTPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189053DC1A45177400640733 /* KTPhotoView.m */; };
 		189053E01A451AA400640733 /* InfinitePagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189053DF1A451AA400640733 /* InfinitePagingView.m */; };
+		18DC8CF51A454880008E1F85 /* no-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DC8CF31A454880008E1F85 /* no-photo.png */; };
+		18DC8CF61A454880008E1F85 /* no-photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DC8CF41A454880008E1F85 /* no-photo@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +161,8 @@
 		189053DC1A45177400640733 /* KTPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPhotoView.m; sourceTree = "<group>"; };
 		189053DE1A451AA400640733 /* InfinitePagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfinitePagingView.h; sourceTree = "<group>"; };
 		189053DF1A451AA400640733 /* InfinitePagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfinitePagingView.m; sourceTree = "<group>"; };
+		18DC8CF31A454880008E1F85 /* no-photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-photo.png"; sourceTree = "<group>"; };
+		18DC8CF41A454880008E1F85 /* no-photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-photo@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -428,6 +432,8 @@
 		1839BAC51A43810500E95599 /* imgsrc */ = {
 			isa = PBXGroup;
 			children = (
+				18DC8CF31A454880008E1F85 /* no-photo.png */,
+				18DC8CF41A454880008E1F85 /* no-photo@2x.png */,
 				1839BAC61A43810500E95599 /* sb-grid-2-selected.png */,
 				1839BAC71A43810500E95599 /* sb-grid-2-selected@2x.png */,
 				1839BAC81A43810500E95599 /* sb-grid-selected.png */,
@@ -531,7 +537,9 @@
 			files = (
 				1839BACD1A43810500E95599 /* sb-grid-2-selected@2x.png in Resources */,
 				1839BA9E1A4361A600E95599 /* WebLoginController.xib in Resources */,
+				18DC8CF51A454880008E1F85 /* no-photo.png in Resources */,
 				1839BAD11A43810500E95599 /* sb-table-selected@2x.png in Resources */,
+				18DC8CF61A454880008E1F85 /* no-photo@2x.png in Resources */,
 				1839BACC1A43810500E95599 /* sb-grid-2-selected.png in Resources */,
 				1839BA051A43428200E95599 /* LaunchScreen.xib in Resources */,
 				1839BACF1A43810500E95599 /* sb-grid-selected@2x.png in Resources */,
@@ -663,7 +671,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "517a49fa-4a70-48aa-89f8-84248a13d5ba";
+				PROVISIONING_PROFILE = "ff01a73b-ea22-492b-9852-cb38556f4f63";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -699,7 +707,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "517a49fa-4a70-48aa-89f8-84248a13d5ba";
+				PROVISIONING_PROFILE = "ff01a73b-ea22-492b-9852-cb38556f4f63";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -717,7 +725,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "517a49fa-4a70-48aa-89f8-84248a13d5ba";
+				PROVISIONING_PROFILE = "ff01a73b-ea22-492b-9852-cb38556f4f63";
 			};
 			name = Debug;
 		};
@@ -733,7 +741,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "517a49fa-4a70-48aa-89f8-84248a13d5ba";
+				PROVISIONING_PROFILE = "ff01a73b-ea22-492b-9852-cb38556f4f63";
 			};
 			name = Release;
 		};

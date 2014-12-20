@@ -13,6 +13,7 @@
 #import "InstagramEngine.h"
 #import "LXReorderableCollectionViewFlowLayout.h"
 #import "InfiniteScrollController.h"
+#import "ImageCache.h"
 
 @interface HashtagController () {
     
@@ -125,6 +126,8 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    [[ImageCache sharedCache] respondToMemoryWarning];
 }
 
 - (void)configureLeftBarButton {

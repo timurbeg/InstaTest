@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BFCDFDC5-F97D-49B7-9BD2-D59CA9AE60EB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>InstaTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8792382E63658DC500644936C33F53CB521700EA</key>
+		<string>https://github.com/timurbeg/InstaTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>InstaTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8792382E63658DC500644936C33F53CB521700EA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/timurbeg/InstaTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8792382E63658DC500644936C33F53CB521700EA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8792382E63658DC500644936C33F53CB521700EA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>InstaTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
